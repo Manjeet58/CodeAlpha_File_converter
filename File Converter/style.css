@@ -1,0 +1,38 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial,sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding:20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow:0 0 10px rgba(0, 0,0,0.1);
+}
+
+h1{
+    text-align: center;
+}
+
+#fileInput {
+    display: none;
+}
+
+#convertButton {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#output {
+    margin-top:20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    display: none;
+}
